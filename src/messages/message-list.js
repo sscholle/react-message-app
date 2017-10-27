@@ -1,3 +1,5 @@
+// @flow
+
 import React, {Component} from 'react';
 
 import MessageView from './message-view'
@@ -22,7 +24,7 @@ class MessageList extends Component{
       }
 
     ]
-  }
+  };
 
   render(){
     return (

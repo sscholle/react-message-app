@@ -1,3 +1,5 @@
+// @flow
+
 //import React, {Component} from 'react';
 import React from 'react';
 import PropTypes from 'prop-types';
@@ -28,7 +30,7 @@ import PropTypes from 'prop-types';
 //export default MessageView;
 
 
-export default function MessageView({message}) {
+export default function MessageView({message} : any) {
   //const message = this.props.message;
     return (
 
